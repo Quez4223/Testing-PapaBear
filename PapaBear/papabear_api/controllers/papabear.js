@@ -1,8 +1,14 @@
 const express = require('express')
 const Papabear = express.Router()
 
+// NEW
 Papabear.get('/', (req, res) => {
-    res.send('<h1> hello Papa Bear </h1>')
+    res.send('hello Papa Bear')
+})
+
+// EDIT
+Papabear.get('/:id/edit', (req, res) => {
+    
 })
 
 
