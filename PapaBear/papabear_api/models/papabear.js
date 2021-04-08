@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const PAPABEAR = require('../controllers/papabear_controller')
+
 
 const pBearSchema = new mongoose.Schema({
     task: { type: String, required: true },

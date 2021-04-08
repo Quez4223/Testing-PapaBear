@@ -7,7 +7,7 @@ const MONGODB_URI = process.env.MONGODB_URI
 
 const app = express()
 const PORT = 3003
-const db = mongoose.connection
+const DBNAME = 'papabear'
 
 // MIDDLEWARE
 app.use(methodOverride('_method'))
