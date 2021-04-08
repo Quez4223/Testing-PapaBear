@@ -6,7 +6,7 @@ const papaBear = require('../models/papabear')
 // Papabear.get('/', (req, res) => {
 //     papaBear.find({}, (err, found))
 //     res.send('hello Papa Bear')
-})
+// })
 
 // CREATE
 Papabear.post('/', (req, res) => {
