@@ -23,7 +23,7 @@ mongoose.connection.once('open', () => {
 })
 
 // CONTROLLER
-const pbController = require('./controllers/papabear.js')
+const pbController = require('./controllers/papabear_controller.js')
 app.use('/Papabear', pbController)
 
 
