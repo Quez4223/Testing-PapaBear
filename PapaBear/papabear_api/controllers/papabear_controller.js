@@ -4,9 +4,20 @@ const papaBear = require('../models/papabear')
 
 // INDEX
 // Papabear.get('/', (req, res) => {
-//     papaBear.find({}, (err, found))
+//     papaBear.find({}, (err, foundTask))
 //     res.send('hello Papa Bear')
 // })
+
+// SEED
+Papabear.get('/seed', (req, res) => {
+    papaBear.create(
+        [
+            {
+                task: ''
+            }
+        ]
+    )
+})
 
 // CREATE
 Papabear.post('/', (req, res) => {
